@@ -56,3 +56,15 @@
 ![CAT](https://www.sunhome.ru/i/wallpapers/2/skuchayuschaya-koshka.orig.jpg)
 
 ![DOG](9981.jpg)
+
+
+## Новые команды
+
+*git remote add* - **Добавляет удалённый репозиторий, необходимо указать shortname и url требуемого репозитория.**
+
+*git remote show origin* - **Получить подробные сведения об удалённом репозитории можно с помощью параметра *remote show* с указанием имени репозитория — например, *origin*.**
+
+*git push -u origin new_branch* - **Передать новую ветку в удалённый репозиторий можно параметром push с флагом -u,** 
+**указав имя репозитория и имя ветки.**
+
+*git push --delete origin existing_branch* - **Удаление удалённой ветки**
